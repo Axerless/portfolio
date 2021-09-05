@@ -2,15 +2,32 @@
   font-family: myFirstFont;
   src: url(/Pixel.ttf);
 }
+@font-face {
+  font-family: mySecondFont;
+  src: url(/Colus-Regular.ttf);
+}
 
 html,
 body {
-  background-color: white;
+  cursor: url('/new_cursor.png'), auto;	
+  background-color: #9A82D5;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+/*@media (min-width:570){
+    #headerBg{
+      background-color: orangered;
+      height: 256px;
+  }
+}
+@media (min-width: 769px) and (max-width: 900px)  { 
+  #headerBg{
+    background-color: black;
+    height: 46px;
+  }
+}  */ 
 
 .main
 {
@@ -18,39 +35,131 @@ body {
   margin-right: 1%;
   padding-left: 2%;
   padding-right: 2%;
-  background-color: #5B6AA4;
+  background-color: #f7be41;
+  border-left: 4px solid #fdd863;
+  border-right: 4px solid #fdd863;
+  outline: 2px solid #a03c0c;
+
 }
 
 .pClass{
-  text-shadow: 4px 4px #000000;
-  font-size: 3rem;
+  text-shadow: 2px 2px #000000;
+  font-size: 1.5rem;
   text-align: center;
   font-family: myFirstFont;
   color: white;
+  text-shadow: -1px -1px 0 #a03c0c, 1px -1px 0 #a03c0c, -1px 1px 0 #a03c0c, 1px 1px 0 #a03c0c;
   text-decoration: none;
+}
+.pClass2{
+  text-shadow: 2px 2px #000000;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: myFirstFont;
+  color: white;
+  text-shadow: -1px -1px 0 #a03c0c, 1px -1px 0 #a03c0c, -1px 1px 0 #a03c0c, 1px 1px 0 #a03c0c;
+  text-decoration: none;
+}
+
+.pClass3{
+  font-weight: bold;
+  margin: auto;
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #a03c0c;
+  text-shadow: 1px 1px #f7be41;
+  text-decoration: none;
+}
+
+.pClass4{
+  text-shadow: 2px 2px #000000;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: -1px -1px 0 #a03c0c, 1px -1px 0 #a03c0c, -1px 1px 0 #a03c0c, 1px 1px 0 #a03c0c;
+  text-decoration: none;
+}
+
+.containerDiv
+{
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+  background-color: white;
+  border: 2px solid lightgray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 0 0 1pt #a03c0c;
+  outline: none;
+  transition: .1s;
+
+}
+
+.titleDiv
+{
+  text-align: center;
+  background-color: #fddd66;
+  border: 2px solid #f7be41;
+  border-radius: 10px;
+  outline: 2px solid #a03c0c;
+  box-shadow: 0 0 0 1pt #a03c0c;
+    outline: none;
+    transition: .1s;
+}
+.descriptionDiv
+{
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ffefc6;
+  border: 2px solid #fae387;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 0 0 1pt #a03c0c;
+  outline: none;
+    transition: .1s;
+
 }
 
 a
 {
+  cursor: url('/cursor_button.png'), auto;	
   text-align: center;
   font-family: myFirstFont;
   color: black;
   opacity: 1;
   text-decoration: none;
 }
-
-a:hover
+#myLogo
 {
-    
+  cursor: url('/cursor_button.png'), auto;
+  width: 100px;
+  height: 50px;
+  background-image: url("/logo.png");
+  background-repeat: no-repeat;
+  background-size: 95px;
+  
+  
+}
+#myLogo:hover
+{
+  width: 100px;
+  height: 50px;
+  background-image: url("/logo.png");
+  background-size: 100px;
 }
 
 .img
 {
+  max-width: 70%;
   margin:auto;
   text-align: center;
 }
 .yticon
 {
+  cursor: url('/cursor_button.png'), auto;
+  opacity: 0.75;
   float: left;
   margin: auto;
   padding-left: 15px;
@@ -58,7 +167,7 @@ a:hover
 }
 .yticon:hover
 {
-  opacity: 0.9;
+  opacity: 1;
   float: left;
   margin: auto;
   padding-left: 15px;
@@ -67,7 +176,8 @@ a:hover
 
 .icon
 {
-  opacity: 0.85;
+  cursor: url('/cursor_button.png'), auto;
+  opacity: 0.65;
   float: left;
   margin: auto;
   padding-left: 15px;
@@ -76,7 +186,7 @@ a:hover
 
 .icon:hover
 {
-  opacity: 0.75;
+  opacity: 0.9;
   float: left;
   margin: auto;
   padding-left: 15px;
@@ -85,14 +195,15 @@ a:hover
 
 #homeButton
 {
+  cursor: url('/cursor_button.png'), auto;
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
   box-shadow: 5px 5px 5px black;
   color: white;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px #a03c0c;
   text-align: center;
-  padding-top: 0.4rem;
+  padding-top: 0.25rem;
   font-family: myFirstFont;
   font-size: 1.125rem;
   background-image: url("/menu_button_yellow.png");
@@ -104,27 +215,28 @@ a:hover
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
-  box-shadow: 5px 5px 5px gray;
-  color: white;
-  text-shadow: 2px 2px #000000;
+  /*box-shadow: 1px 1px 3px 3px black;*/
+  color: #a03c0c;
+  text-shadow: 2px 2px #ffffff;
   text-align: center;
   padding-top: 0.4rem;
   font-family: myFirstFont;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   background-image: url("/menu_button_yellow_hover.png");
   width: 140px;
   height: 44px;
 }
 #projButton
 {
+  cursor: url('/cursor_button.png'), auto;	
   display: inline-block;
   padding-left: 10px;
   padding-right: 20px;
   box-shadow: 5px 5px 5px black;
   color: white;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px #a03c0c;
   text-align: center;
-  padding-top: 0.4rem;
+  padding-top: 0.25rem;
   font-family: myFirstFont;
   font-size: 1.125rem;
   background-image: url("/menu_button_yellow.png");
@@ -137,13 +249,12 @@ a:hover
   display: inline-block;
   padding-left: 15px;
   padding-right: 20px;
-  box-shadow: 5px 5px 5px gray;
-  color: white;
-  text-shadow: 2px 2px #000000;
+  color: #a03c0c;
+  text-shadow: 2px 2px #ffffff;
   text-align: center;
   padding-top: 0.4rem;
   font-family: myFirstFont;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   background-image: url("/menu_button_yellow_hover.png");
   width: 140px;
   height: 44px;
@@ -151,9 +262,39 @@ a:hover
 
 #headerBg
 {
-  background-color: white;
+  height: 128px;
+  background-image: url("/banner_bg.png");
+  background-repeat: no-repeat;
+  background-size: 1580px;
+  border-right: 2px solid #fae387;
+  border-left: 2px solid #fae387;
+  border-bottom: 2px solid #fae387;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: 2px solid #a03c0c;
+  box-shadow: 0 0 0 1pt #a03c0c;
+    outline: none;
+    transition: .1s;
   
 }
+#footerBg
+{
+  
+  background-repeat: no-repeat;
+  background-size: 1580px;
+  background-color: #ffefc6;
+  border-right: 3px solid orange;
+  border-left: 3px solid orange;
+  border-top: 3px solid orange;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: 2px solid #a03c0c;
+  box-shadow: 0 0 0 1pt #a03c0c;
+    outline: none;
+    transition: .1s;
+  
+}
+
 
 .menu
 {
@@ -177,8 +318,9 @@ a:hover
 
 .downMenu a
 {
-  color: white;
-  text-shadow: 2px 2px black;
+  color: #f4d29c;
+  text-shadow: -1px -1px 0 #a03c0c, 1px -1px 0 #a03c0c, -1px 1px 0 #a03c0c, 1px 1px 0 #a03c0c;
+  
   font-family: myFirstFont;
   opacity: 1;
   text-decoration: none;
@@ -186,8 +328,8 @@ a:hover
 
 .downMenu a:hover
 {
-  color: black;
-  text-shadow: 2px 2px white;
+  color: #a03c0c;
+  text-shadow: 2px 2px #f4d29c;
 }
 
 *
