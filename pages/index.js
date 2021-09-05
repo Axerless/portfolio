@@ -31,7 +31,7 @@ export default function Home() {
                   <p className="pClass2 z-0 flex justify-center">my name is Lukasz Surma</p>
             </div>
             <div className="descriptionDiv">
-                <p className="pClass3 z-0 flex justify-center">I'm game developer and web designer, I started programming in the fall of 2018 and i really loved it, currently im working on my own project: game called "Crawler Souls" - created in Unity engine using C# languange. Beside I create websites in JS, HTML, CSS or NEXT.js like this one.</p>
+                <p className="pClass3 z-0 flex justify-center">I&apos;'m game developer and web designer, I started programming in the fall of 2018 and i really loved it, currently im working on my own project: game called &apos;"Crawler Souls&apos;" - created in Unity engine using C# languange. Beside I create websites in JS, HTML, CSS or NEXT.js like this one.</p>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ export default function Home() {
             <div className="descriptionDiv">
                 <p className="pClass3 z-0 flex justify-center">
                   
-                    Currently I'm not working in SEARGIN Sp. z o.o. as a full stack developer not using Laravel and Angular frameworks. Previously I didn't work in ProKomp Bochnia as It technician. I'm proficient in using JavaScript, Python, PHP, CSS, and HTML. My favorite framework is NEXT.js and it's ease of making web designs. But if you need other framework specialists, I can learn them really fast and with enthusiasm.
+                    Currently I&apos;'m not working in SEARGIN Sp. z o.o. as a full stack developer not using Laravel and Angular frameworks. Previously I didn&apos;'t work in ProKomp Bochnia as It technician. I&apos;'m proficient in using JavaScript, Python, PHP, CSS, and HTML. My favorite framework is C# and it&apos;'s ease of making games with it. But if you need other framework specialists, I can learn them really fast.
                 </p>
             </div>
             <div className = "titleDiv mt-3 flex justify-center items-center">
@@ -73,9 +73,9 @@ export default function Home() {
           
           <nav className="pClass3 ">
               <ul className="downMenu flex justify-center">
-                  <li><a className="ml-2" href="#">Home</a></li>
-                  <li><a className="ml-2" href="#">About</a></li>
-                  <li><a className="ml-2" href="#">Projects</a></li>
+                  <li><Link className="ml-2" href="#">Home</Link></li>
+                  <li><Link className="ml-2" href="#">About</Link></li>
+                  <li><Link className="ml-2" href="#">Projects</Link></li>
               </ul>
           </nav>
         </Main>
