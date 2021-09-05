@@ -1,5 +1,6 @@
 
 import Head from 'next/head';
+import Link from 'next/link'
 import Image from 'next/image';
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -56,11 +57,11 @@ export default function Home() {
             <div className="descriptionDiv">
                 <p className="pClass3 z-0 flex justify-center">
                   
-                    Currently I&apos;'m not working in SEARGIN Sp. z o.o. as a full stack developer not using Laravel and Angular frameworks. Previously I didn&apos;'t work in ProKomp Bochnia as It technician. I&apos;'m proficient in using JavaScript, Python, PHP, CSS, and HTML. My favorite framework is C# and it&apos;'s ease of making games with it. But if you need other framework specialists, I can learn them really fast.
+                    Currently I &apos;'m not working in SEARGIN Sp. z o.o. as a full stack developer not using Laravel and Angular frameworks. Previously I didn &apos;'t work in ProKomp Bochnia as It technician. I &apos;'m proficient in using JavaScript, Python, PHP, CSS, and HTML. My favorite framework is C# and it &apos;'s ease of making games with it. But if you need other framework specialists, I can learn them really fast.
                 </p>
             </div>
             <div className = "titleDiv mt-3 flex justify-center items-center">
-            <button className="pClass4 z-0 flex justify-center" onclick="">lukaszsurma73@gmail</button>
+            <div className= "pClass4 z-0 flex justify-center">lukaszsurma73@gmail</div>
             </div>
           </div>
 
@@ -71,11 +72,11 @@ export default function Home() {
           </div>
           
           
-          <nav className="pClass3 ">
+          <nav className="pClass3 flex justify-center">
               <ul className="downMenu flex justify-center">
-                  <li><Link className="ml-2" href="#">Home</Link></li>
-                  <li><Link className="ml-2" href="#">About</Link></li>
-                  <li><Link className="ml-2" href="#">Projects</Link></li>
+                  <li><Link  href="#">Home</Link></li>
+                  <li className="ml-2"><Link href="#">About</Link></li>
+                  <li className="ml-2" ><Link href="#">Projects</Link></li>
               </ul>
           </nav>
         </Main>

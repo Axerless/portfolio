@@ -133,6 +133,7 @@ a
 }
 #myLogo
 {
+  
   cursor: url('/cursor_button.png'), auto;
   width: 100px;
   height: 50px;
@@ -160,22 +161,18 @@ a
 {
   cursor: url('/cursor_button.png'), auto;
   opacity: 0.75;
-  float: left;
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .yticon:hover
 {
   opacity: 1;
   float: left;
-  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .icon
 {
+  
   cursor: url('/cursor_button.png'), auto;
   opacity: 0.65;
   float: left;
@@ -186,6 +183,7 @@ a
 
 .icon:hover
 {
+  
   opacity: 0.9;
   float: left;
   margin: auto;
