@@ -28,8 +28,8 @@ export default function Header(props) {
             <ul className="menu h-10 w-full">
                 <Link href="/"><li id="homeButton" className="ml-2">Home</li></Link>
                 <Link href="/first-post"><li id="projButton" className="ml-2 ">Projects</li></Link>
-                <Link href="#"><li id="homeButton" className="ml-2">Gallery</li></Link>
-                <Link href="#"><li id="homeButton" className="ml-2">About</li></Link>
+                <Link href=""><li id="homeButton" className="ml-2">Gallery</li></Link>
+                <Link href="/about"><li id="homeButton" className="ml-2">About</li></Link>
             </ul> 
         </nav>
        </header>

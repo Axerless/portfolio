@@ -2,11 +2,13 @@
 import Head from 'next/head';
 import Link from 'next/link'
 import Image from 'next/image';
+
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Main from '../components/main';
-import bannerImg from '../public/banner_test.png';
 
+import bannerImg from '../public/banner_test.png';
+import IndexPage from '../components/scrollbar';
 
 
 export default function Home() {
@@ -24,7 +26,7 @@ export default function Home() {
       </Header>
       
       <Main>
-    
+      
           <div className="containerDiv mt-4  h-1/3 p-2 flex-center justify-center">
             <div className = "titleDiv">
                   <p className="pClass z-0 flex justify-center">Welcome here!</p>
@@ -80,16 +82,16 @@ export default function Home() {
           </nav>
         </Main>
 
-      <Footer>
-
-      </Footer>
-
+      <Footer/>
+      <IndexPage/>
     </div>
     </div>
     
   )
   
 }
+
+
 
 /* function myFunction() {
  

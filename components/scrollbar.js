@@ -25,13 +25,14 @@ const IndexPage = () => {
   }, []);
 
   return (
-    <div style={{ height: 4000 }}>
+    <div style={{ height: 10}}>
       <div style={{ position: "fixed", top: 0 }}>
         {
             scrollY > 100
-          ? console.log("Scrolled more than 100px")
+          ? console.log("Scrolled more than 100px") 
           : console.log("Still somewhere near the top!")
           }
+          <p>siem</p>
       </div>
     </div>
   );

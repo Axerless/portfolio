@@ -10,7 +10,7 @@
 html,
 body {
   cursor: url('/new_cursor.png'), auto;	
-  background-color: #9A82D5;
+  background-color: #f7d874;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -39,12 +39,11 @@ body {
   border-left: 4px solid #fdd863;
   border-right: 4px solid #fdd863;
   outline: 2px solid #a03c0c;
-
 }
 
 .pClass{
   text-shadow: 2px 2px #000000;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   text-align: center;
   font-family: myFirstFont;
   color: white;
@@ -53,7 +52,7 @@ body {
 }
 .pClass2{
   text-shadow: 2px 2px #000000;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
   text-align: center;
   font-family: myFirstFont;
   color: white;
@@ -64,7 +63,7 @@ body {
 .pClass3{
   font-weight: bold;
   margin: auto;
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #a03c0c;
@@ -94,7 +93,6 @@ body {
   box-shadow: 0 0 0 1pt #a03c0c;
   outline: none;
   transition: .1s;
-
 }
 
 .titleDiv
@@ -118,8 +116,44 @@ body {
   border-top-right-radius: 10px;
   box-shadow: 0 0 0 1pt #a03c0c;
   outline: none;
-    transition: .1s;
+  transition: .1s;
+}
+.aboutDescriptionDiv
+{
 
+  width: 84%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ffefc6;
+  border: 2px solid #fae387;
+  box-shadow: 0 0 0 1pt #a03c0c;
+  outline: none;
+  transition: .1s;
+}
+
+.aboutImg
+{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin-top: 10px;
+  background-size: cover;
+  border: 2px solid #fae387;
+  box-shadow: 0 0 0 1pt #a03c0c;
+  outline: none;
+  transition: .1s;
+}
+.portrait
+{
+  background-image: url("/portrait.png");
+}
+.ytPortrait
+{
+  background-image: url("/yt_portrait.png");
+}
+.twitterPortrait
+{
+  background-image: url("/yt_portrait.png");
 }
 
 a
@@ -160,21 +194,26 @@ a
 .yticon
 {
   cursor: url('/cursor_button.png'), auto;
-  opacity: 0.75;
+  opacity: 1;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .yticon:hover
 {
-  opacity: 1;
+  opacity: 0.7;
   float: left;
   padding-left: 15px;
   padding-right: 15px;
 }
-
+.copyIcon
+{
+  cursor: url('/copy_icon.png'), auto;
+}
 .icon
 {
-  
+  color: white;
   cursor: url('/cursor_button.png'), auto;
-  opacity: 0.65;
+  opacity: 1;
   float: left;
   margin: auto;
   padding-left: 15px;
@@ -183,8 +222,7 @@ a
 
 .icon:hover
 {
-  
-  opacity: 0.9;
+  opacity: 0.5;
   float: left;
   margin: auto;
   padding-left: 15px;
@@ -277,7 +315,8 @@ a
 }
 #footerBg
 {
-  
+ 
+  background-image: url("/banner_bg.png");
   background-repeat: no-repeat;
   background-size: 1580px;
   background-color: #ffefc6;
@@ -296,6 +335,7 @@ a
 
 .menu
 {
+ 
   list-style: none;
   color: white;
   text-shadow: 2px 2px black;
