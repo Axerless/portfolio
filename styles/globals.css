@@ -62,9 +62,7 @@ body {
 
 .pClass3{
   font-weight: bold;
-  margin: auto;
-  font-size: 1.25rem;
-  text-align: center;
+  font-size: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #a03c0c;
   text-shadow: 1px 1px #f7be41;
@@ -121,7 +119,7 @@ body {
 .aboutDescriptionDiv
 {
 
-  width: 84%;
+  width: 85%;
   padding: 10px;
   margin-top: 10px;
   background-color: #ffefc6;
@@ -133,19 +131,29 @@ body {
 
 .aboutImg
 {
+  
+  display: flex;
+  justify-content: flex-start;
+  
   width: 200px;
   height: 200px;
   padding: 10px;
   margin-top: 10px;
-  background-size: cover;
+  background-size: 197px;
   border: 2px solid #fae387;
   box-shadow: 0 0 0 1pt #a03c0c;
   outline: none;
   transition: .1s;
 }
+#aboutConainer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .portrait
 {
-  background-image: url("/portrait.png");
+  background-image: url("/portrait_new_v2.png");
 }
 .ytPortrait
 {
@@ -174,7 +182,6 @@ a
   background-image: url("/logo.png");
   background-repeat: no-repeat;
   background-size: 95px;
-  
   
 }
 #myLogo:hover
@@ -207,7 +214,7 @@ a
 }
 .copyIcon
 {
-  cursor: url('/copy_icon.png'), auto;
+  cursor: url('/copy_icon_small.png'), auto;
 }
 .icon
 {

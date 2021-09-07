@@ -37,18 +37,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="containerDiv mt-4 h-1/3 p-2 flex-center">
-            <div className = "titleDiv">
-                  <p className="pClass z-0 flex justify-center">My projects</p>
-
-            </div>
-            <div className="descriptionDiv">
-              <div className="bg-white img z-0">
-                  <Image src={bannerImg} alt="logo" width={900} height={459} />
-              </div>
-            </div>
-          </div>
-
+         
 
           <div className="containerDiv mt-4  h-1/3 p-2 flex-center">
             <div className = "titleDiv">
