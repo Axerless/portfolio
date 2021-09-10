@@ -111,7 +111,7 @@ return (
         <style jsx>
             {`
             
-                @media (max-width: 375px){
+                @media (max-width: 500px){
                     #arrowButton{
                         display:none;
                     }
@@ -121,25 +121,25 @@ return (
                     .projDiv
                     {
                         
-                        max-height: 250px;
+                        max-height: 350px;
                     }
                     #CS_proj_img{
-                        max-height: 173px;
-                        background-size: 295px;
+                        max-height: 240px;
+                        background-size: 367px;
                         
                         background-repeat: no-repeat;
                     }
                     #CS_proj_img2{
                         
-                        max-height: 173px;
-                        background-size: 295px;
+                        max-height: 240px;
+                        background-size: 367px;
                         
                         background-repeat: no-repeat;
                     }
                     #CS_proj_img3{
                         
-                        max-height: 173px;
-                        background-size: 295px;
+                        max-height: 240px;
+                        background-size: 367px;
                        
                         background-repeat: no-repeat;
                     }
