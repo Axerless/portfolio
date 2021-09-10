@@ -1,0 +1,164 @@
+import bannerImg from '../public/game_screen_1.png';
+import arrowRightImg from '../public/arrow_button_right.png';
+import arrowLeftImg from '../public/arrow_button_left.png';
+
+import Image from 'next/image';
+
+import Header from '../components/header';
+import Main from '../components/main';
+import Footer from '../components/footer';
+import Page from '../components/arrowButton';
+
+var images = new Array("url('/game_screen.png')","url('/game_screen.png')","url('/game_screen_1.png')","url('/game_screen_2.png')","url('/game_screen_3.png')","url('/game_screen_4.png')");
+var images2 = new Array("url('/cube_menu.png')","url('/cube_select_level.png')","url('/cube_game.png')");
+var images3 = new Array("url('/ball_menu.png')","url('/cube_select_level.png')","url('/cube_game.png')");
+var x = 1;
+var y = 0;
+var z = 0;
+
+export default function About() {
+return (
+<div className="flex justify-center">
+    <div className="container flex flex-col justify-between h-full item-center w-full">
+    <Header>
+
+    </Header>
+    <Main>
+        
+        <div className=" mt-4 h-full p-2 ">
+            <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
+                  <p className="pClass z-0 flex justify-center "><i>Crawler Souls - rising hero adventure</i></p>
+                  <p className="pClass3 z-0 flex justify-center">It&apos;s my biggest project yet, on which im working since 2020, it&apos;s also made in Unity, but this time I chose 2D graphics in pixelart style.</p>
+            </div>
+            <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
+                <div className="flex">
+                    <button id="arrowButton" onClick={() => { if(x>1){x--; document.getElementById("CS_proj_img").style.backgroundImage = images[x]}console.log("iks "+x);}}>
+                        <Image src={arrowLeftImg} alt="logo" width={44} height={72}/>
+                    </button>
+                    <div id="CS_proj_img" className ="flex" alt="thirdProjImg" ></div>
+                    <button id="arrowButton"  onClick={() => {if(x<5){ x++; document.getElementById("CS_proj_img").style.backgroundImage = images[x]}console.log("iks "+x);}}>
+                        <Image src={arrowRightImg} alt="logo" width={44} height={72}/>
+                    </button>
+                </div>
+
+                <div className="flex">
+                    <button id="arrowButton2" onClick={() => { if(x>1){x--; document.getElementById("CS_proj_img").style.backgroundImage = images[x]}console.log("iks "+x);}}>
+                        <Image src={arrowLeftImg} alt="logo" width={22} height={36}/>
+                    </button>
+                    <button id="arrowButton2"  onClick={() => {if(x<5){ x++; document.getElementById("CS_proj_img").style.backgroundImage = images[x]}console.log("iks "+x);}}>
+                        <Image src={arrowRightImg} alt="logo" width={22} height={36}/>
+                    </button>
+                </div>
+
+            </div>
+            
+        </div>
+        <div className=" mt-4 h-full p-2 ">
+            
+            <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
+                  <p className="pClass z-0 flex justify-center"><i>Cube3D</i></p>
+                  <p className="pClass3 z-0 flex justify-center">My second project made in Unity3D, i created this to learn more about unity with help of Brackeys Tutorials.</p>
+            </div>
+            <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
+                <div className="flex">
+                    <button id="arrowButton"  onClick={() => { if(y>0){y--; document.getElementById("CS_proj_img2").style.backgroundImage = images2[y]}console.log("iks "+y);}}>
+                        <Image src={arrowLeftImg} alt="logo" width={44} height={72}/>
+                    </button>
+                    <div id="CS_proj_img2" className ="flex " alt="secondProjImg" ></div>
+                    <button id="arrowButton"  onClick={() => {if(y<2){ y++; document.getElementById("CS_proj_img2").style.backgroundImage = images2[y]}console.log("iks "+y);}}>
+                        <Image src={arrowRightImg} alt="logo" width={44} height={72}/>
+                    </button>
+                </div>
+
+                <div className="flex">
+                    <button id="arrowButton2"  onClick={() => { if(y>0){y--; document.getElementById("CS_proj_img2").style.backgroundImage = images2[y]}console.log("iks "+y);}}>
+                        <Image src={arrowLeftImg} alt="logo" width={22} height={36}/>
+                    </button>
+                    <button id="arrowButton2"  onClick={() => {if(y<2){ y++; document.getElementById("CS_proj_img2").style.backgroundImage = images2[y]}console.log("iks "+y);}}>
+                        <Image src={arrowRightImg} alt="logo" width={22} height={36}/>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div className=" mt-4 h-full p-2 ">
+            <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md  border-opacity-70 rounded-md dark:bg-black">
+                  <p className="pClass z-0 flex justify-center"><i>Hit that ball</i></p>
+                  <p className="pClass3 z-0 flex justify-center">My first project made in Unity3D, it was created in the fall of 2019.</p>
+            </div>
+            <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black mb-4">
+                <div className="flex">
+                    <button id="arrowButton"  onClick={() => { if(z>0){z--; document.getElementById("CS_proj_img3").style.backgroundImage = images3[z]}console.log("iks "+z);}}>
+                        <Image src={arrowLeftImg} alt="logo" width={44} height={72}/>
+                    </button>
+                    <div id="CS_proj_img3" className ="flex" alt="secondProjImg" ></div>
+                    <button id="arrowButton"  onClick={() => {if(z<2){ z++; document.getElementById("CS_proj_img3").style.backgroundImage = images3[z]}console.log("iks "+z);}}>
+                        <Image src={arrowRightImg} alt="logo" width={44} height={72}/>
+                    </button>
+                </div>
+
+                <div className="flex">
+                    <button id="arrowButton2"  onClick={() => { if(z>0){z--; document.getElementById("CS_proj_img3").style.backgroundImage = images3[z]}console.log("iks "+z);}}>
+                        <Image src={arrowLeftImg} alt="logo" width={22} height={36}/>
+                    </button>
+                    <button id="arrowButton2"  onClick={() => {if(z<2){ z++; document.getElementById("CS_proj_img3").style.backgroundImage = images3[z]}console.log("iks "+z);}}>
+                        <Image src={arrowRightImg} alt="logo" width={22} height={36}/>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+        <style jsx>
+            {`
+            
+                @media (max-width: 375px){
+                    #arrowButton{
+                        display:none;
+                    }
+                    #arrowButton2{
+                        display: block;
+                    }
+                    .projDiv
+                    {
+                        
+                        max-height: 250px;
+                    }
+                    #CS_proj_img{
+                        max-height: 173px;
+                        background-size: 295px;
+                        
+                        background-repeat: no-repeat;
+                    }
+                    #CS_proj_img2{
+                        
+                        max-height: 173px;
+                        background-size: 295px;
+                        
+                        background-repeat: no-repeat;
+                    }
+                    #CS_proj_img3{
+                        
+                        max-height: 173px;
+                        background-size: 295px;
+                       
+                        background-repeat: no-repeat;
+                    }
+                }
+                
+            `}
+        </style>
+  
+    </Main>
+
+    <Footer>
+
+    </Footer>
+        
+    </div>
+
+</div>
+        
+        
+)
+    
+}

@@ -10,7 +10,7 @@
 html,
 body {
   cursor: url('/new_cursor.png'), auto;	
-  background-color: #f7d874;
+  background-color: #b5b5b5;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -31,42 +31,63 @@ body {
 
 .main
 {
+  
   margin-left: 1%;
   margin-right: 1%;
   padding-left: 2%;
   padding-right: 2%;
-  background-color: #f7be41;
-  border-left: 4px solid #fdd863;
-  border-right: 4px solid #fdd863;
-  outline: 2px solid #a03c0c;
+  background-color: white ;
+  border-left: 4px solid lightgray;
+  border-right: 4px solid lightgray;
+  outline: 2px solid black;
+}
+.homeContainer
+{
+  display: flex;
+  
+}
+
+.gameboy
+{
+  
+  padding: 2%;
+  margin: auto;
+  width: 459px; 
+  height: 824px;
+
 }
 
 .pClass{
+  letter-spacing: 1px;
   text-shadow: 2px 2px #000000;
   font-size: 1.65rem;
   text-align: center;
   font-family: myFirstFont;
-  color: white;
-  text-shadow: -1px -1px 0 #a03c0c, 1px -1px 0 #a03c0c, -1px 1px 0 #a03c0c, 1px 1px 0 #a03c0c;
+  color: lightgray;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-decoration: none;
 }
 .pClass2{
+  letter-spacing: 1px;
   text-shadow: 2px 2px #000000;
   font-size: 1.45rem;
   text-align: center;
   font-family: myFirstFont;
-  color: white;
-  text-shadow: -1px -1px 0 #a03c0c, 1px -1px 0 #a03c0c, -1px 1px 0 #a03c0c, 1px 1px 0 #a03c0c;
+  color: gray;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-decoration: none;
+  
 }
 
 .pClass3{
+  padding: 2px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #a03c0c;
-  text-shadow: 1px 1px #f7be41;
+  color: black;
+  text-shadow: 1px 1px 2px gray;
   text-decoration: none;
+  
 }
 
 .pClass4{
@@ -75,46 +96,79 @@ body {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  text-shadow: -1px -1px 0 #a03c0c, 1px -1px 0 #a03c0c, -1px 1px 0 #a03c0c, 1px 1px 0 #a03c0c;
+  text-shadow: -1px -1px 0 #8860D0, 1px -1px 0 #8860D0, -1px 1px 0 #8860D0, 1px 1px 0 #8860D0;
   text-decoration: none;
 }
 
 .containerDiv
 {
-  margin: auto;
+  margin: 2%;
   text-align: center;
-  max-width: 90%;
-  background-color: white;
-  border: 2px solid lightgray;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  box-shadow: 0 0 0 1pt #a03c0c;
-  outline: none;
-  transition: .1s;
+  max-width: 50%;
+
+}
+.mainPageContainerDiv
+{
+  text-align: center;
+  max-width: 70%;
+
 }
 
 .titleDiv
 {
   text-align: center;
-  background-color: #fddd66;
-  border: 2px solid #f7be41;
-  border-radius: 10px;
-  outline: 2px solid #a03c0c;
-  box-shadow: 0 0 0 1pt #a03c0c;
-    outline: none;
-    transition: .1s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top:  2px solid lightgray;
+
+}
+.titleDiv:hover
+{
+ 
+  background-color: #e9e9e9;
+
+}
+.titleDiv:hover > .pClass
+{
+ 
+  color: white;
+
+}
+.aboutTitleDiv
+{
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #e9e9e9;
+  border-top:  2px solid lightgray;
+
+}
+.aboutTitleDiv:hover
+{
+ 
+  background-color: white;
+
+}
+.aboutTitleDiv > .pClass
+{
+ 
+  color: white;
+
+}
+.aboutTitleDiv:hover > .pClass
+{
+ 
+  color: gray;
+
 }
 .descriptionDiv
 {
   padding: 10px;
   margin-top: 10px;
-  background-color: #ffefc6;
-  border: 2px solid #fae387;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  box-shadow: 0 0 0 1pt #a03c0c;
-  outline: none;
-  transition: .1s;
+  background-color: #84CEEB;
+  border: 2px solid white;
+  outline: 2px solid #5680E9;
+
 }
 .aboutDescriptionDiv
 {
@@ -122,11 +176,7 @@ body {
   width: 85%;
   padding: 10px;
   margin-top: 10px;
-  background-color: #ffefc6;
-  border: 2px solid #fae387;
-  box-shadow: 0 0 0 1pt #a03c0c;
-  outline: none;
-  transition: .1s;
+
 }
 
 .aboutImg
@@ -151,6 +201,54 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
+#CS_proj_img{
+
+  width: 900px;
+  height: 527px;
+  background-image: url("/game_screen.png");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  
+}
+#CS_proj_img2{
+
+  width: 900px;
+  height: 527px;
+  background-image: url("/cube_menu.png");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  
+}
+#CS_proj_img3{
+
+  width: 900px;
+  height: 527px;
+  background-image: url("/ball_menu.png");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  
+}
+#arrowButton
+{
+  cursor: url("/cursor_button.png"), auto;	
+  margin:auto;
+  width: 44px;
+  height: 72px;
+}
+#arrowButton2
+{
+  cursor: url("/cursor_button.png"), auto;	
+  margin:auto;
+  width: 44px;
+  height: 72px;
+  display: none;
+  
+}
+#arrowButton:hover
+{
+  opacity: 0.7;
+}
+
 .portrait
 {
   background-image: url("/portrait_new_v2.png");
@@ -255,19 +353,10 @@ a
 }
 #homeButton:hover
 {
-  display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
-  /*box-shadow: 1px 1px 3px 3px black;*/
   color: #a03c0c;
   text-shadow: 2px 2px #ffffff;
-  text-align: center;
-  padding-top: 0.4rem;
-  font-family: myFirstFont;
-  font-size: 1.25rem;
   background-image: url("/menu_button_yellow_hover.png");
-  width: 140px;
-  height: 44px;
+  
 }
 #projButton
 {
@@ -289,18 +378,10 @@ a
 
 #projButton:hover
 {
-  display: inline-block;
-  padding-left: 15px;
-  padding-right: 20px;
   color: #a03c0c;
   text-shadow: 2px 2px #ffffff;
-  text-align: center;
-  padding-top: 0.4rem;
-  font-family: myFirstFont;
-  font-size: 1.25rem;
   background-image: url("/menu_button_yellow_hover.png");
-  width: 140px;
-  height: 44px;
+
 }
 
 #headerBg
@@ -309,31 +390,32 @@ a
   background-image: url("/banner_bg.png");
   background-repeat: no-repeat;
   background-size: 1580px;
-  border-right: 2px solid #fae387;
-  border-left: 2px solid #fae387;
-  border-bottom: 2px solid #fae387;
+  background-color:  white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  outline: 2px solid #a03c0c;
-  box-shadow: 0 0 0 1pt #a03c0c;
+  border-right: 3px solid lightgray;
+  border-left: 3px solid lightgray;
+  border-bottom: 3px solid lightgray;
+  box-shadow: 0 0 0 1pt black;
     outline: none;
     transition: .1s;
+
   
 }
+
 #footerBg
 {
  
   background-image: url("/banner_bg.png");
   background-repeat: no-repeat;
   background-size: 1580px;
-  background-color: #ffefc6;
-  border-right: 3px solid orange;
-  border-left: 3px solid orange;
-  border-top: 3px solid orange;
+  background-color:  #5680E9;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  outline: 2px solid #a03c0c;
-  box-shadow: 0 0 0 1pt #a03c0c;
+  border-right: 3px solid lightgray;
+  border-left: 3px solid lightgray;
+  border-top: 3px solid lightgray;
+  box-shadow: 0 0 0 1pt black;
     outline: none;
     transition: .1s;
   

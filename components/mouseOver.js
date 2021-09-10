@@ -19,7 +19,7 @@ export async function changeBackground(e) {
 
     return (
         
-        <div className="aboutDescriptionDiv">
+        <div className="aboutDescriptionDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
           <button className="flex" onClick={() => navigator.clipboard.writeText("lukaszsurma73@gmail.com")} onMouseOver={() => document.getElementById("ytImg").style.backgroundImage = "url('/mail_portrait.png')"}>
                 <p className="copyIcon pClass3 z-0 flex justify-left">E-mail: lukaszsurma73@gmail.com</p>
           </button>
