@@ -29,7 +29,7 @@ return (
     <div className=" mt-4 h-full p-2 ">
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
                   <p className="pClass z-0 flex justify-center "><i>Cyberbug</i></p>
-                  <p className="pClass3 z-0 flex justify-center">It's the latest game and it was my first participation in Game Jam. The project was made along with my friend Martin and we created it in 3 weeks, for submission in Game Off 2021.</p>
+                  <p className="pClass3 z-0 flex justify-center">Latest game and it was my first participation in Game Jam. This project was made along with my friend Marcin and we created it in 3 weeks for submission in Game Off 2021.</p>
             </div>
             <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
                 <div className="flex">
@@ -86,7 +86,7 @@ return (
             
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
                   <p className="pClass z-0 flex justify-center"><i>Cube3D</i></p>
-                  <p className="pClass3 z-0 flex justify-center">It's my second project made in Unity3D. I've created this to learn more about unity with help of Brackeys Tutorials.</p>
+                  <p className="pClass3 z-0 flex justify-center">It&apos;s my second project made in Unity3D. I&apos;ve created this to learn more about unity with help of Brackeys Tutorials.</p>
             </div>
             <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
                 <div className="flex">
