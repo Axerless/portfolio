@@ -6,14 +6,16 @@ import Image from 'next/image';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Main from '../components/main';
+import SnakeGame from '../components/first-post';
+import IndexPage from '../components/scrollbar';
+
 
 import gameboy from '../public/console.png';
-import IndexPage from '../components/scrollbar';
 
 
 export default function Home() {
   return (
-    
+   
     <div className="flex justify-center">
     <div className="container flex flex-col justify-between h-full item-center w-full">
       <Head>
@@ -26,6 +28,7 @@ export default function Home() {
       </Header>
       
       <Main>
+      
       <div className="homeContainer">
         <div className="containerDiv flex flex-col ">
 
@@ -43,10 +46,8 @@ export default function Home() {
               <div className="mainPageContainerDiv  h-1/3 p-2 flex-center">
                 <div className = "titleDiv shadow-md border-opacity-70 rounded-md dark:bg-black">
                       <p className="pClass z-0 flex justify-center"> I am Open To Work </p>
-                      <p className="pClass2 z-0 flex justify-center">contact me down below!</p>
-
                       <p className="pClass3 z-0 flex justify-center p-4">
-                        Currently I m not working in SEARGIN Sp. z o.o. as a full stack developer not using Laravel and Angular frameworks. Previously I didn t work in ProKomp Bochnia as It technician. I m proficient in using JavaScript, Python, PHP, CSS, and HTML. My favorite framework is C# and it s ease of making games with it. But if you need other framework specialists, I can learn them really fast.
+                        Currently unemployed and looking for a job, if you want to collaborate with me, contact me down below.
                       </p>
                 </div>
                 <div className = "titleDiv mt-3 flex justify-center items-center shadow-md border-opacity-70 rounded-md dark:bg-black">
@@ -62,17 +63,42 @@ export default function Home() {
                     <li className="ml-2" ><Link href="/projects">Projects</Link></li>
                 </ul>
             </nav>
-
         </div>
-
-        <div className="gameboy shadow-md border-opacity-70 rounded-md dark:bg-black mt-4 " >
-          <Image src={gameboy} alt="logo" width={510} height={916}/>
+        
+        <div className="gameboy shadow-md border-opacity-70 rounded-md dark:bg-black mt-4 ">
+          <Image src={gameboy} alt="logo" width={510} height={916}/> 
         </div>
 
       </div>
         <IndexPage/>
         <style jsx>
             {`
+              .snakeDiv{
+                width: 30vh;
+                height: 30vh;
+                display: fles;
+                justify-content: center;
+                align-items: center;
+                background-color: red;
+                margin: 0;
+              }
+              #gameBoard
+              {
+                width: 30vmin;
+                height: 30vmin;
+                background-color: #CCC;
+                display: grid;
+                grid-template-rows: repeat(21,1fr);
+                grid-template-columns: repeat(21,1fr);
+              }
+              .snake{
+                background-color: blue;
+                border: .25vmin solid black;
+              }
+              .food{
+                border: .25vmin solid black;
+                background-color: yellow;
+              }
                @media (max-width: 900px){
                 .homeContainer {
                   display: block;

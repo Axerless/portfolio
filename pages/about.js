@@ -30,7 +30,7 @@ return (
                     
             </div>
             <div className = "titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
-                <p className="pClass3 z-0 flex justify-left p-2 ">Making Games: since 2010, when I was 10 I did my first ever 2D platform game, it was simple and made in multimedia fusion 2, but I really liked it, not only game but the whole procces, when you take your idea and it&apos;s becoming real: from code programming to the texture design, assets and music. Back then I wanted to create more games but the only thing that held me back from larger projects was my lack of programming skills so after several years I started learning C++, Java,JS, HTML, CSS etc. and after getting acquainted in programming, I started creating my own game in C# languange using Unity</p>
+                <p className="pClass3 z-0 flex justify-left p-2 ">Making Games: since 2011, when I was 10 I did my first ever 2D platform game, it was simple and made in multimedia fusion 2, but I really liked it, not only game but the whole process, when the idea is becoming real,- from code programming to the texture, level design, assets and music. Back then I wanted to create more games but the only thing that held me back from larger projects was my lack of programming skills so after several years I started learning C++, Java,JS, HTML, CSS etc. and after getting acquainted in programming, I started creating my own games in C# language using Unity.</p>
             </div>
             
         </div>

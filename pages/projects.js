@@ -9,12 +9,14 @@ import Main from '../components/main';
 import Footer from '../components/footer';
 import Page from '../components/arrowButton';
 
-var images = new Array("url('/game_screen.png')","url('/game_screen.png')","url('/game_screen_1.png')","url('/game_screen_2.png')","url('/game_screen_3.png')","url('/game_screen_4.png')");
+var bugImages = new Array("url('/bug_game_screen_1.png')","url('/bug_game_screen_2.png')","url('/bug_game_screen_3.png')","url('/bug_game_screen_4.png')");
+var images = new Array("url('/game_screen.png')","url('/game_screen.png')","url('/game_screen_1.png')","url('/game_screen_2.png')","url('/game_screen_3.png')","url('/game_screen_3.png')");
 var images2 = new Array("url('/cube_menu.png')","url('/cube_select_level.png')","url('/cube_game.png')");
-var images3 = new Array("url('/ball_menu.png')","url('/cube_select_level.png')","url('/cube_game.png')");
+var images3 = new Array("url('/ball_menu.png')","url('/ball_menu.png')","url('/ball_menu.png')");
 var x = 1;
 var y = 0;
 var z = 0;
+var a = 0;
 
 export default function About() {
 return (
@@ -24,7 +26,34 @@ return (
 
     </Header>
     <Main>
-        
+    <div className=" mt-4 h-full p-2 ">
+            <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
+                  <p className="pClass z-0 flex justify-center "><i>Cyberbug</i></p>
+                  <p className="pClass3 z-0 flex justify-center">It's the latest game and it was my first participation in Game Jam. The project was made along with my friend Martin and we created it in 3 weeks, for submission in Game Off 2021.</p>
+            </div>
+            <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
+                <div className="flex">
+                    <button id="arrowButton" onClick={() => { if(a > 0){a--; document.getElementById("CS_proj_img4").style.backgroundImage = bugImages[a]}console.log("iks "+a);}}>
+                        <Image src={arrowLeftImg} alt="logo" width={44} height={72}/>
+                    </button>
+                    <div id="CS_proj_img4" className ="flex" alt="fourthProjImg" ></div>
+                    <button id="arrowButton"  onClick={() => {if(a<4){ a++; document.getElementById("CS_proj_img4").style.backgroundImage = bugImages[a]}console.log("iks "+a);}}>
+                        <Image src={arrowRightImg} alt="logo" width={44} height={72}/>
+                    </button>
+                </div>
+
+                <div className="flex">
+                    <button id="arrowButton2" onClick={() => { if(a>0){a--; document.getElementById("CS_proj_img4").style.backgroundImage = bugImages[a]}console.log("iks "+a);}}>
+                        <Image src={arrowLeftImg} alt="logo" width={22} height={36}/>
+                    </button>
+                    <button id="arrowButton2"  onClick={() => {if(a<4){ a++; document.getElementById("CS_proj_img4").style.backgroundImage = bugImages[a]}console.log("iks "+a);}}>
+                        <Image src={arrowRightImg} alt="logo" width={22} height={36}/>
+                    </button>
+                </div>
+
+            </div>
+            
+        </div>
         <div className=" mt-4 h-full p-2 ">
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
                   <p className="pClass z-0 flex justify-center "><i>Crawler Souls - rising hero adventure</i></p>
@@ -57,7 +86,7 @@ return (
             
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
                   <p className="pClass z-0 flex justify-center"><i>Cube3D</i></p>
-                  <p className="pClass3 z-0 flex justify-center">My second project made in Unity3D, i created this to learn more about unity with help of Brackeys Tutorials.</p>
+                  <p className="pClass3 z-0 flex justify-center">It's my second project made in Unity3D. I've created this to learn more about unity with help of Brackeys Tutorials.</p>
             </div>
             <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
                 <div className="flex">
@@ -83,8 +112,8 @@ return (
         </div>
         <div className=" mt-4 h-full p-2 ">
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md  border-opacity-70 rounded-md dark:bg-black">
-                  <p className="pClass z-0 flex justify-center"><i>Hit that ball</i></p>
-                  <p className="pClass3 z-0 flex justify-center">My first project made in Unity3D, it was created in the fall of 2019.</p>
+                  <p className="pClass z-0 flex justify-center"><i>Hit the ball</i></p>
+                  <p className="pClass3 z-0 flex justify-center">My first project made in Unity3D.</p>
             </div>
             <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black mb-4">
                 <div className="flex">

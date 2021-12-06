@@ -28,7 +28,14 @@ body {
     height: 46px;
   }
 }  */ 
-
+.tlo
+{
+  width: 459px; 
+  height: 824px;
+  background-image: url("/console.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .main
 {
   
@@ -49,11 +56,10 @@ body {
 
 .gameboy
 {
-  
+ 
   padding: 2%;
   margin: auto;
-  width: 459px; 
-  height: 824px;
+ 
 
 }
 
@@ -224,6 +230,15 @@ body {
   width: 900px;
   height: 527px;
   background-image: url("/ball_menu.png");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  
+}
+#CS_proj_img4{
+
+  width: 900px;
+  height: 527px;
+  background-image: url("/bug_game_screen_1.png");
   background-size: 900px;
   background-repeat: no-repeat;
   
@@ -406,7 +421,7 @@ a
 #footerBg
 {
  
-  background-image: url("/banner_bg.png");
+  background-image: url("/footer_bg_2.png");
   background-repeat: no-repeat;
   background-size: 1580px;
   background-color:  #5680E9;
