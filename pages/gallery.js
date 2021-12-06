@@ -32,7 +32,7 @@ return (
             <div id="TransparentBox" className="TransparentBoxOn">
                         
             </div>
-            <div id="imageUnder" class="imageUnderHide">
+            <div id="imageUnder" className="imageUnderHide">
                   <div className="flex h-full">
                         <div className="flex m-auto">
                                     <button id="arrowButton" className="arrowButtonContainerHide" onClick={() => { if(i>0){i--; document.getElementById("imageOver").style.backgroundImage = galleryImages[i]}}}>

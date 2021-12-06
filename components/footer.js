@@ -14,7 +14,7 @@ export default function Footer(props) {
         <footer id="footerBg" className="flex-col flex items-center sticky justify-between bottom-0 z-30">
 
             <div className="flex h-30 justify-end mb-2 m-auto">
-            <a href="https://github.com/Axerless" target="_blank">
+            <a href="https://github.com/Axerless" target="_blank" rel="noopener noreferrer">
                 <Image src={gitIcon} alt="logo" className="yticon" width={60} height={60} />
             </a>
 

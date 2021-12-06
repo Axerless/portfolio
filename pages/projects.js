@@ -27,7 +27,7 @@ return (
     <Main>
     <div className=" mt-4 h-full p-2 ">
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
-                <a href="https://pixellookstudio.itch.io/cyberbug" target="_blank">
+                <a href="https://pixellookstudio.itch.io/cyberbug" target="_blank" rel="noopener noreferrer">
                     <p className="pClass z-0 flex justify-center "><i>Cyberbug</i></p>
                     <p className="pClass3 z-0 flex justify-center">Latest game and it was my first participation in Game Jam. This project was made along with my friend Marcin and we created it in 3 weeks for submission in Game Off 2021.</p>
                 </a>
