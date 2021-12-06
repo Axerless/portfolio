@@ -24,15 +24,15 @@ export async function changeBackground(e) {
                 <p className="copyIcon pClass3 z-0 flex justify-left">E-mail: lukaszsurma73@gmail.com</p>
           </button>
           <button className="flex" onMouseOver={() => document.getElementById("ytImg").style.backgroundImage = "url('/yt_portrait.png')"}>
-          <Link href="https://youtube.com/"><a target="_blank"><p className="pClass3 z-0 flex justify-left">Youtube: https://youtube.com/</p></a></Link>
+          <Link href="https://www.youtube.com/channel/UCH-g0kGG9fBpnI_wdkEQnjQ"><a target="_blank"><p className="pClass3 z-0 flex justify-left">Youtube</p></a></Link>
+          </button>
+          <button className="flex" onMouseOver={() => document.getElementById("ytImg").style.backgroundImage = "url('/git_portrait.png')"}>
+          <Link href="https://github.com/Axerless"><a target="_blank"><p className="pClass3 z-0 flex justify-left">Github</p></a></Link>
           </button>
           <button className="flex" onMouseOver={() => document.getElementById("ytImg").style.backgroundImage = "url('/twitter_portrait.png')"}>
-          <Link href="https://twitter.com/"><a target="_blank"><p className="pClass3 z-0 flex justify-left">Twitter: https://twitter.com/</p></a></Link>
+          <Link href=""><p className="pClass3 z-0 flex justify-left">Twitter</p></Link>
           </button>
-
-          <button className="flex" onMouseOver={() => document.getElementById("ytImg").style.backgroundImage = "url('/git_portrait.png')"}>
-          <Link href="https://github.com/Axerless"><a target="_blank"><p className="pClass3 z-0 flex justify-left">Github: https://github.com/Axerless</p></a></Link>
-          </button>
+          
           <style jsx>
             {`
                @media (max-width: 900px){

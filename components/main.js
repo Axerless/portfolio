@@ -7,7 +7,7 @@ export default function Main(props) {
     const { children, ...customMeta } = props;
 
     return (
-        <main className="main h-full">
+        <main className="main h-full pt-6">
             {children}
         </main>
     )

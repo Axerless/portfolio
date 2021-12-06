@@ -11,18 +11,18 @@ export default function Footer(props) {
     const { children, ...customMeta } = props;
 
     return (
-        <footer id="footerBg" className="flex-col flex items-center justify-between h-1/6 bottom-0">
+        <footer id="footerBg" className="flex-col flex items-center sticky justify-between bottom-0 z-30">
 
-            <div className="flex h-30 justify-end mb-2 mt-8 m-auto">
-            <Link href="#" target="_blank">
+            <div className="flex h-30 justify-end mb-2 m-auto">
+            <a href="https://github.com/Axerless" target="_blank">
                 <Image src={gitIcon} alt="logo" className="yticon" width={60} height={60} />
-            </Link>
+            </a>
 
-            <Link href="#" target="_blank">
+            <Link href="/about">
                 <Image src={mailIcon} alt="logo" className="yticon" width={60} height={60} />
             </Link>
 
-            <Link href="#" target="_blank">
+            <Link href="https://www.youtube.com/channel/UCH-g0kGG9fBpnI_wdkEQnjQ" target="_blank">
                 <Image src={ytLogo} alt="logo" className="yticon" width={60} height={60} />
             </Link>
 

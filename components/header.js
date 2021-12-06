@@ -7,7 +7,7 @@ export default function Header(props) {
 
     return (
         
-        <header id="headerBg" className="sticky top-0 w-full justify-between flex z-10">
+        <header id="headerBg" className="sticky top-0 w-full justify-between flex z-40">
         <style jsx>
             {`
                @media (max-width: 540px){

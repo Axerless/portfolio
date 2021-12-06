@@ -35,9 +35,9 @@ export default function Home() {
             <nav className="pClass3 flex justify-center">
               <div className="mainPageContainerDiv h-1/3 p-2 flex-center justify-center">
                 <div className = "titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
-                      <p className="pClass z-0 flex justify-center">Welcome here!</p>
-                      <p className="pClass2 z-0 flex justify-center">my name is Lukasz Surma</p>
-                      <p className="pClass3 z-0 flex justify-center">I&apos;m game developer and web designer, I started programming in the fall of 2018 and i really loved it, currently I&apos;m working on my own project: game called &quot;Crawler Souls&quot; - created in Unity engine using C# languange. Beside I create websites in JS, HTML, CSS or NEXT.js like this one.</p>
+                      <p className="pClass pt-6 z-0 flex justify-center">Welcome here!</p>
+                      <p className="pClass2 z-0 flex justify-center">My name is Lukasz Surma</p>
+                      <p className="pClass3 p-6 z-0 flex justify-center">I&apos;m a game developer and web creator. Programming since the fall of 2018 and I really like it, currently I&apos;m working on my own project: game called &quot;Crawler Souls&quot; - created in Unity engine using C# language. Besides, I&apos;m creating websites using HTML, CSS, JS and NEXT.js.</p>
                 </div>
               </div>
             </nav>
@@ -45,8 +45,8 @@ export default function Home() {
             <nav className="pClass3 flex justify-center">
               <div className="mainPageContainerDiv  h-1/3 p-2 flex-center">
                 <div className = "titleDiv shadow-md border-opacity-70 rounded-md dark:bg-black">
-                      <p className="pClass z-0 flex justify-center"> I am Open To Work </p>
-                      <p className="pClass3 z-0 flex justify-center p-4">
+                      <p className="pClass pt-6 z-0 flex justify-center"> I am Open To Work </p>
+                      <p className="pClass3 p-6 z-0 flex justify-center">
                         Currently unemployed and looking for a job, if you want to collaborate with me, contact me down below.
                       </p>
                 </div>
@@ -66,39 +66,13 @@ export default function Home() {
         </div>
         
         <div className="gameboy shadow-md border-opacity-70 rounded-md dark:bg-black mt-4 ">
-          <Image src={gameboy} alt="logo" width={510} height={916}/> 
+          <Image src={gameboy} alt="logo" width={340} height={610}/> 
         </div>
 
       </div>
         <IndexPage/>
         <style jsx>
             {`
-              .snakeDiv{
-                width: 30vh;
-                height: 30vh;
-                display: fles;
-                justify-content: center;
-                align-items: center;
-                background-color: red;
-                margin: 0;
-              }
-              #gameBoard
-              {
-                width: 30vmin;
-                height: 30vmin;
-                background-color: #CCC;
-                display: grid;
-                grid-template-rows: repeat(21,1fr);
-                grid-template-columns: repeat(21,1fr);
-              }
-              .snake{
-                background-color: blue;
-                border: .25vmin solid black;
-              }
-              .food{
-                border: .25vmin solid black;
-                background-color: yellow;
-              }
                @media (max-width: 900px){
                 .homeContainer {
                   display: block;
