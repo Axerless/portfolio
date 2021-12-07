@@ -153,26 +153,32 @@ return (
                     }
                     .projDiv
                     {
-                        
                         max-height: 350px;
                     }
                     #CS_proj_img{
-                        max-height: 240px;
-                        background-size: 367px;
+                        max-height: 165px;
+                        background-size: 290px;
                         
                         background-repeat: no-repeat;
                     }
                     #CS_proj_img2{
                         
-                        max-height: 240px;
-                        background-size: 367px;
+                        max-height: 165px;
+                        background-size: 290px;
                         
                         background-repeat: no-repeat;
                     }
                     #CS_proj_img3{
                         
-                        max-height: 240px;
-                        background-size: 367px;
+                        max-height: 165px;
+                        background-size: 290px;
+                       
+                        background-repeat: no-repeat;
+                    }
+                    #CS_proj_img4{
+                        
+                        max-height: 165px;
+                        background-size: 290px;
                        
                         background-repeat: no-repeat;
                     }

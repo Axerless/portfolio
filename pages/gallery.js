@@ -29,14 +29,12 @@ return (
 
     </Header>
     <Main>
-            <div id="TransparentBox" className="TransparentBoxOn">
-                        
-            </div>
+
             <div id="imageUnder" className="imageUnderHide">
-                  <div className="flex h-full">
+                  <div id="mainImageContainer" className="flex h-full">
                         <div className="flex m-auto">
                                     <button id="arrowButton" className="arrowButtonContainerHide" onClick={() => { if(i>0){i--; document.getElementById("imageOver").style.backgroundImage = galleryImages[i]}}}>
-                                          <Image src={arrowLeftImg} alt="logo" width={22} height={36}/>
+                                          <Image src={arrowLeftImg} alt="arrowButtonLeft" width={22} height={36}/>
                                     </button>
                         </div>
                         <div id ="imageOver" className = "optionA sticky m-auto w-full h-full">
@@ -44,35 +42,34 @@ return (
                         </div>
                         <div className="flex m-auto">
                               <button id="arrowButton1" className="arrowButtonContainerHide" onClick={() => { if(i<galleryImages.length-1){i++; document.getElementById("imageOver").style.backgroundImage = galleryImages[i]}console.log("iks "+i);}}>
-                                    <Image src={arrowRightImg} alt="logo" width={22} height={36}/>
+                                    <Image src={arrowRightImg} alt="arrowButtonRight" width={22} height={36}/>
                               </button>
                         </div>
                   </div>
-
                   <div className="flex justify-start mt-4 h-full p-2 z-0 ">
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 0, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg1} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg1} alt="galleryImg1" width={240} height={135}/>
                               </button>
                         </div>
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 1, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg2} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg2} alt="galleryImg2" width={240} height={135}/>
                               </button>
                         </div>
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 2, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg3} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg3} alt="galleryImg3" width={240} height={135}/>
                               </button>
                         </div>
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 3, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg4} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg4} alt="galleryImg4" width={240} height={135}/>
                               </button>
                         </div>
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 4, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg5} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg5} alt="galleryImg5" width={240} height={135}/>
                               </button>
                         </div>
                         
@@ -82,30 +79,33 @@ return (
                         
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 5, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg6} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg6} alt="galleryImg6" width={240} height={135}/>
                               </button>
                         </div>
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 6, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg7} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg7} alt="galleryImg7" width={240} height={135}/>
                               </button>
                         </div>
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 7, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg8} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg8} alt="galleryImg8" width={240} height={135}/>
                               </button>
                         </div>
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 8, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg9} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg9} alt="galleryImg9" width={240} height={135}/>
                               </button>
                         </div>
                         <div className ="titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black w-64 h-40 m-auto pt-2.5">
                               <button id="imageButton"  onClick={() => {i = 9, document.getElementById("imageOver").className = "optionB p-max sticky m-auto",document.getElementById("imageUnder").className = "imageUnderShow", document.getElementById("imageOver").style.backgroundImage = galleryImages[i], document.getElementById("arrowButton").className = "arrowButtonContainerShow", document.getElementById("arrowButton1").className = "arrowButtonContainerShow", document.getElementById("TransparentBox").className = "TransparentBoxOff"}}>
-                                    <Image src={galleryImg10} alt="logo" width={240} height={135}/>
+                                    <Image src={galleryImg10} alt="galleryImg10" width={240} height={135}/>
                               </button>
                         </div>
-                  </div>  
+                  </div>
+                  <div id="TransparentBox" className="TransparentBoxOn">
+                        
+                  </div>
                   
             </div>
       
