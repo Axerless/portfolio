@@ -108,6 +108,17 @@ return (
                   </div>
                   
             </div>
+
+            <style jsx>
+            {`
+                @media (max-width: 500px){ 
+                  .titleDiv{
+                        max-height: 60px;
+                  }
+                }
+                
+            `}
+        </style>
       
     </Main>
 
