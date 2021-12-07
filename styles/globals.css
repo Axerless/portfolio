@@ -206,9 +206,9 @@ body {
   padding: 10px;
   margin-top: 10px;
   background-size: 197px;
-  border: 2px solid #fae387;
-  box-shadow: 0 0 0 1pt #a03c0c;
-  outline: none;
+  border: 2px solid black;
+  box-shadow: 0 0 0 5pt grey;
+
   transition: .1s;
 }
 #imageButton
