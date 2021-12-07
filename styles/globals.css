@@ -64,14 +64,23 @@ body {
  
 
 }
-
+.mainTitleClass{
+  letter-spacing: 1px;
+  text-shadow: 2px 2px #000000;
+  font-size: 1.65rem;
+  text-align: center;
+  font-family: mySecondFont;
+  color: #ebede9 ;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  text-decoration: none;
+}
 .pClass{
   letter-spacing: 1px;
   text-shadow: 2px 2px #000000;
   font-size: 1.65rem;
   text-align: center;
   font-family: myFirstFont;
-  color: #c7cfcc;
+  color: lightgray;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-decoration: none;
 }
@@ -80,9 +89,9 @@ body {
   text-shadow: 2px 2px #000000;
   font-size: 1.45rem;
   text-align: center;
-  font-family: myFirstFont;
-  color: #c7cfcc;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: lightgray;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-decoration: none;
   
 }
@@ -163,9 +172,7 @@ body {
 }
 .aboutTitleDiv:hover
 {
- 
   background-color: white;
-
 }
 .aboutTitleDiv > .pClass
 {
@@ -173,10 +180,10 @@ body {
   color: white;
 
 }
-.aboutTitleDiv:hover > .pClass
+.aboutTitleDiv:hover > a
 {
  
-  color: white;
+  color:gray;
 
 }
 .descriptionDiv

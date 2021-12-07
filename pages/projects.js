@@ -27,12 +27,12 @@ return (
     <Main>
     <div className=" mt-4 h-full p-2 ">
             <div className = "aboutTitleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black mb-10">
-                  <p className="pClass z-0 flex justify-center">My projects</p>
+                  <p className="mainTitleClass flex justify-center">My projects</p>
             </div>
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
                 <a href="https://pixellookstudio.itch.io/cyberbug" target="_blank" rel="noopener noreferrer">
-                    <p className="pClass z-0 flex justify-center "><i>Cyberbug</i></p>
-                    <p className="pClass3 z-0 flex justify-center">Latest game and it was my first participation in Game Jam. This project was made along with my friend Marcin and we created it in 3 weeks for submission in Game Off 2021.</p>
+                    <p className="mainTitleClass z-0 flex justify-center "><i>Cyberbug</i></p>
+                    <p className="pClass3 z-0 flex justify-center">It&apos;s my latest game and it was my first participation in Game Jam. This project was made along with my friend Marcin and we created it in 3 weeks for submission in Game Off 2021.</p>
                 </a>
             </div>
             <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
@@ -60,8 +60,8 @@ return (
         </div>
         <div className=" mt-4 h-full p-2 ">
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
-                  <p className="pClass z-0 flex justify-center "><i>Crawler Souls - rising hero adventure</i></p>
-                  <p className="pClass3 z-0 flex justify-center">It&apos;s my biggest project yet, on which I&apos;m working since summer 2020. It&apos;s also made in Unity, but this time 2D style with pixel art assets.</p>
+                  <p className="mainTitleClass z-0 flex justify-center "><i>Crawler Souls - rising hero adventure</i></p>
+                  <p className="pClass3 z-0 flex justify-center">It&apos;s my biggest project yet, on which It&apos;m working since summer 2020. It&apos;s also made in Unity, but this time 2D style with pixel art assets.</p>
             </div>
             <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
                 <div className="flex">
@@ -89,7 +89,7 @@ return (
         <div className=" mt-4 h-full p-2 ">
             
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
-                  <p className="pClass z-0 flex justify-center"><i>Cube3D</i></p>
+                  <p className="mainTitleClass z-0 flex justify-center"><i>Cube3D</i></p>
                   <p className="pClass3 z-0 flex justify-center">It&apos;s my second project made in Unity3D. I&apos;ve created this to learn more about unity with help of Brackeys Tutorials.</p>
             </div>
             <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black">
@@ -116,8 +116,8 @@ return (
         </div>
         <div className=" mt-4 h-full p-2 ">
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md  border-opacity-70 rounded-md dark:bg-black">
-                  <p className="pClass z-0 flex justify-center"><i>Hit the ball</i></p>
-                  <p className="pClass3 z-0 flex justify-center">My first project made in Unity3D.</p>
+                  <p className="mainTitleClass z-0 flex justify-center"><i>Hit the ball</i></p>
+                  <p className="pClass3 z-0 flex justify-center">My first project made in Unity.</p>
             </div>
             <div className="projDiv mt-4 p-4 justify-center shadow-md border-opacity-70 rounded-md dark:bg-black mb-4">
                 <div className="flex">

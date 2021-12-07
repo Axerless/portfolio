@@ -14,7 +14,7 @@ return (
     <Main>
         <div className=" mt-4 h-full p-2 ">
             <div className = "titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
-                  <p className="pClass z-0 flex justify-center">About me</p>
+                  <p className="mainTitleClass z-0 flex justify-center">About me</p>
             </div>
             <div id="aboutConainer" className="mb-4">
                     <div className="aboutImg portrait shadow-md bg-gray-500 border-opacity-70 rounded-md dark:bg-grey-500 ">
@@ -30,14 +30,14 @@ return (
                     
             </div>
             <div className = "titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
-                <p className="pClass3 p-6 z-0 flex justify-left ">Making Games: since 2011, when I was 10 I&apos;ve created my first ever 2D platform game, it was simple and made in Multimedia Fusion 2 and I really liked it, the whole process, when the idea is becoming real,- from code programming to the textures, level design, assets and music when it comes all together, that&apos;s great experience. Several years later I started learning some programming languages like: C++, Java,JS, HTML, CSS etc. and after getting acquainted in programming, I started creating my own games in C# language using Unity.</p>
+                <p className="pClass3 p-6 z-0 flex justify-left ">Making Games: since 2011, when I was 10 I&apos;ve created my first ever 2D platform game, it was simple and made in Multimedia Fusion 2 and I really liked it, the whole process, when the idea is becoming real,- from code programming to the textures, level design, assets, and music when it comes all together, that&apos;s a great experience. Several years later I started learning some programming languages like C++, Java, JS, HTML, CSS, etc. and after getting acquainted with programming I started creating games in C# language using Unity.</p>
             </div>
             
         </div>
         
         <div className=" mt-4 h-full p-2 ">
             <div className = "titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
-                <p className="pClass z-0 flex justify-center">Cotact and Media</p>
+                <p className="mainTitleClass z-0 flex justify-center">Cotact and Media</p>
             </div>
             <div id="aboutConainer" className="mb-4">
                 <div id="ytImg" className="aboutImg ytPortrait shadow-md bg-gray-500 border-opacity-70 rounded-md dark:bg-grey-500">

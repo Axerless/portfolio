@@ -35,9 +35,8 @@ export default function Home() {
             <nav className="pClass3 flex justify-center">
               <div className="mainPageContainerDiv h-1/3 p-2 flex-center justify-center">
                 <div className = "titleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
-                      <p className="pClass pt-6 z-0 flex justify-center">Welcome here!</p>
-                      <p className="pClass2 z-0 flex justify-center">My name is Lukasz Surma</p>
-                      <p className="pClass3 p-6 z-0 flex justify-center">I&apos;m a game developer and web creator. Programming since the fall of 2018 and I really like it, currently I&apos;m working on my own project: game called &quot;Crawler Souls&quot; - created in Unity engine using C# language. Besides, I&apos;m creating websites using HTML, CSS, JS and NEXT.js.</p>
+                      <p className="mainTitleClass p-3 z-0 flex justify-center">Welcome here!</p>
+                      <p className="pClass3 p-3 z-0 flex justify-center">My name is Łukasz Surma and I&apos;m a game developer and web creator. Programming since the fall of 2018 and I really like it, currently, I&apos;m working on my project: a game called &quot;Crawler Souls&quot; - created in Unity engine using C# language. Besides, I&apos;m creating websites using HTML, CSS, JS, and NEXT.js.</p>
                 </div>
               </div>
             </nav>
@@ -45,7 +44,7 @@ export default function Home() {
             <nav className="pClass3 flex justify-center">
               <div className="mainPageContainerDiv  h-1/3 p-2 flex-center">
                 <div className = "titleDiv shadow-md border-opacity-70 rounded-md dark:bg-black">
-                      <p className="pClass pt-6 z-0 flex justify-center"> I am Open To Work </p>
+                      <p className="mainTitleClass pt-3 z-0 flex justify-center"> I am Open To Work </p>
                       <p className="pClass3 p-6 z-0 flex justify-center">
                         Currently unemployed and looking for a job, if you want to collaborate with me, contact me down below.
                       </p>
@@ -58,9 +57,9 @@ export default function Home() {
             
             <nav className="pClass3 flex justify-center">
                 <ul className="downMenu flex justify-center">
-                    <li><Link  href="/">Home</Link></li>
-                    <li className="ml-2"><Link href="/about">About</Link></li>
-                    <li className="ml-2" ><Link href="/projects">Projects</Link></li>
+                    <li className="m-4" ><Link  href="/">Home</Link></li>
+                    <li className="m-4"><Link href="/about">About</Link></li>
+                    <li className="m-4" ><Link href="/projects">Projects</Link></li>
                 </ul>
             </nav>
         </div>
