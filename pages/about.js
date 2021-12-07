@@ -17,7 +17,7 @@ return (
                   <p className="pClass z-0 flex justify-center">About me</p>
             </div>
             <div id="aboutConainer" className="mb-4">
-                    <div className="aboutImg portrait shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
+                    <div className="aboutImg portrait shadow-md bg-gray-500 border-opacity-70 rounded-md dark:bg-grey-500 ">
 
                     </div>
 
@@ -40,7 +40,7 @@ return (
                 <p className="pClass z-0 flex justify-center">Cotact and Media</p>
             </div>
             <div id="aboutConainer" className="mb-4">
-                <div id="ytImg" className="aboutImg ytPortrait shadow-md bg-white border-opacity-70 rounded-md dark:bg-black">
+                <div id="ytImg" className="aboutImg ytPortrait shadow-md bg-gray-500 border-opacity-70 rounded-md dark:bg-grey-500">
                     
                 </div>
                 <ChangeBackground></ChangeBackground>

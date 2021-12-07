@@ -124,7 +124,7 @@ body {
   text-align: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  border-top:  2px solid #819796;
+  border-bottom: 2px solid #819796;
 
 }
 .titleDiv
@@ -206,7 +206,7 @@ body {
   padding: 10px;
   margin-top: 10px;
   background-size: 197px;
-  border: 2px solid black;
+  border: 2px solid gray;
   box-shadow: 0 0 0 5pt grey;
 
   transition: .1s;

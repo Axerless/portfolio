@@ -26,6 +26,9 @@ return (
     </Header>
     <Main>
     <div className=" mt-4 h-full p-2 ">
+            <div className = "aboutTitleDiv shadow-md bg-white border-opacity-70 rounded-md dark:bg-black mb-10">
+                  <p className="pClass z-0 flex justify-center">My projects</p>
+            </div>
             <div className = "aboutTitleDiv max-w-6xl m-auto shadow-md border-opacity-70 rounded-md dark:bg-black">
                 <a href="https://pixellookstudio.itch.io/cyberbug" target="_blank" rel="noopener noreferrer">
                     <p className="pClass z-0 flex justify-center "><i>Cyberbug</i></p>
