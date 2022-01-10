@@ -7,7 +7,6 @@ import Image from 'next/image';
 import Header from '../components/header';
 import Main from '../components/main';
 import Footer from '../components/footer';
-import image from 'next/image';
 
 var bugImages = new Array("url('/bug_game_screen_1.png')","url('/bug_game_screen_2.png')","url('/bug_game_screen_3.png')","url('/bug_game_screen_4.png')");
 var images = new Array("url('/game_screen.png')","url('/game_screen.png')","url('/game_screen_1.png')","url('/game_screen_2.png')","url('/game_screen_3.png')","url('/game_screen_3.png')");
