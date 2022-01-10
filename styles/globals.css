@@ -267,6 +267,15 @@ body {
   background-repeat: no-repeat;
   
 }
+#CS_proj_img5{
+
+  width: 900px;
+  height: 527px;
+  background-image: url("/pacman_game_1.png");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  
+}
 #arrowButton
 {
   cursor: url("/cursor_button.png"), auto;	
